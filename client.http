@@ -27,7 +27,14 @@ Content-Type: application/json
 Authorization: Bearer {{authToken}}
 
 {
-    "title": "What is NestJS?",
+    "title": "What is NestJS? 2",
     "content": "Can someone explain what NestJS is and its main features?"
 }
+
+###
+
+# @name fetch_recent_questions
+GET {{baseUrl}}/questions?page=2
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
 
