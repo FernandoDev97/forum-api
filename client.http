@@ -26,3 +26,8 @@ POST {{baseUrl}}/questions
 Content-Type: application/json
 Authorization: Bearer {{authToken}}
 
+{
+    "title": "What is NestJS?",
+    "content": "Can someone explain what NestJS is and its main features?"
+}
+
