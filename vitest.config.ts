@@ -8,7 +8,8 @@ export default defineConfig({
   esbuild: false,
   oxc: false,
   test: {
-    include: ['**/*.spec.ts', '**/*.e2e-spec.ts'],
+    include: ['**/*.spec.ts'],
+    exclude: ['**/node_modules/**', '**/*.e2e-spec.ts'],
     globals: true,
     root: './',
   },

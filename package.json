@@ -31,6 +31,7 @@
     "@swc/core": "^1.15.18",
     "@vitest/coverage-v8": "^4.1.0",
     "bcryptjs": "^3.0.3",
+    "dayjs": "^1.11.20",
     "passport-jwt": "^4.0.1",
     "pg": "^8.20.0",
     "reflect-metadata": "^0.2.2",
@@ -43,6 +44,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.18.0",
+    "@faker-js/faker": "^10.3.0",
     "@nestjs/cli": "^11.0.0",
     "@nestjs/schematics": "^11.0.0",
     "@nestjs/testing": "^11.0.1",
